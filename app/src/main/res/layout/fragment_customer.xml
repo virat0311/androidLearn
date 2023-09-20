@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CustomerFragment">
+
+    <TextView
+        android:id="@+id/menuTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Pandey's Restaurant"
+        android:textAlignment="center"
+        android:textColor="#8F1919"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/nameEditTextView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="18dp"
+        android:hint="Enter your name"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/phoneEditTextView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="18dp"
+        android:hint="Enter you contact"
+        android:inputType="phone"
+        android:textColor="#03A9F4"
+        android:textSize="18dp" />
+
+    <ListView
+        android:id="@+id/menuItemsListView"
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        android:layout_marginTop="18dp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/menuConfirmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Confirm Order"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "976889708713",
+    "project_id": "androidapplication-b4dd9",
+    "storage_bucket": "androidapplication-b4dd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976889708713:android:2c2bfcbb8e7925183ba9b8",
+        "android_client_info": {
+          "package_name": "com.example.pandeyprojectandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976889708713-n99hldblp9d8pdcpu73q2f6o70m9rbfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPHrpkwCLtqAqkByyTOBxvRNbMBba0QdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976889708713-n99hldblp9d8pdcpu73q2f6o70m9rbfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
